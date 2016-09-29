@@ -6,5 +6,16 @@ services:
       - "8088:8088"
       - "8042:8042"
       - "4040:4040"
-
-# docker run -it -p 8088:8088 -p 8042:8042 -p 4040:4040 -h sandbox sequenceiq/spark:1.6.0 bash
+    depends_on:
+      - elasticsearch
+      - kibana
+  elasticsearch:
+    build: ./container/elasticsearch
+    ports:
+      - "9200:9200"
+  kibana:
+    image: kibana:4.5
+    depends_on:
+      - elasticsearch
+    ports:
+      - "5601:5601"
