@@ -2,6 +2,7 @@
 This is trial codes to work with Apache Spark, Elasticsearch and Kibana on Docker.
 
 Refer to:
+
 http://www.intellilink.co.jp/article/column/bigdata-kk01.html
 
 http://www.intellilink.co.jp/article/column/bigdata-kk02.html
