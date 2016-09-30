@@ -6,10 +6,10 @@ import org.atilika.kuromoji.Tokenizer._
 import java.util.regex._
 
 // Twitterへのアクセスアカウント情報を定義する
-System.setProperty("twitter4j.oauth.consumerKey", "8H05xxaH4VVjdXngad5QtO2O3")
-System.setProperty("twitter4j.oauth.consumerSecret", "6hpQQOUPA49uVA8OrjK6Y2MFp0rbCExauRUTfuHlkFmYkgYo7w")
-System.setProperty("twitter4j.oauth.accessToken", "269740336-ikCuPpHIeY2S5Xv2IrW7hKTOvduhZPrRhUxUhcTX")
-System.setProperty("twitter4j.oauth.accessTokenSecret", "QtYwn2Md6FBe1M4xcfdBFaOVkgpxsLMY3UeDLQk6qkJSQ")
+System.setProperty("twitter4j.oauth.consumerKey", "xxxxxxxxxxxxxxxxxxxx")
+System.setProperty("twitter4j.oauth.consumerSecret", "xxxxxxxxxxxxxxxxxxxx")
+System.setProperty("twitter4j.oauth.accessToken", "xxxxxxxxxxxxxxxxxxxx")
+System.setProperty("twitter4j.oauth.accessTokenSecret", "xxxxxxxxxxxxxxxxxxxx")
 
 // プロキシ環境の場合は、ここでプロキシの設定をする
 

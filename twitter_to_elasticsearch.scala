@@ -6,11 +6,11 @@ import org.apache.spark.streaming.twitter._
 import org.elasticsearch.spark._
 import org.elasticsearch.spark.rdd.EsSpark
 
-
-System.setProperty("twitter4j.oauth.consumerKey", "8H05xxaH4VVjdXngad5QtO2O3")
-System.setProperty("twitter4j.oauth.consumerSecret", "6hpQQOUPA49uVA8OrjK6Y2MFp0rbCExauRUTfuHlkFmYkgYo7w")
-System.setProperty("twitter4j.oauth.accessToken", "269740336-ikCuPpHIeY2S5Xv2IrW7hKTOvduhZPrRhUxUhcTX")
-System.setProperty("twitter4j.oauth.accessTokenSecret", "QtYwn2Md6FBe1M4xcfdBFaOVkgpxsLMY3UeDLQk6qkJSQ")
+// Twitterへのアクセスアカウント情報を定義する
+System.setProperty("twitter4j.oauth.consumerKey", "xxxxxxxxxxxxxxxxxxxx")
+System.setProperty("twitter4j.oauth.consumerSecret", "xxxxxxxxxxxxxxxxxxxx")
+System.setProperty("twitter4j.oauth.accessToken", "xxxxxxxxxxxxxxxxxxxx")
+System.setProperty("twitter4j.oauth.accessTokenSecret", "xxxxxxxxxxxxxxxxxxxx")
 
 // sc is automatically created by spark-shell
 // http://stackoverflow.com/questions/30662084/fail-to-create-sparkcontext
